@@ -1,21 +1,21 @@
-spring:
-  datasource:
-    username: ${USER:user}
-    password: ${PASSWORD:password}
-    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/test-db}
-  jpa:
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-    show-sql: true
-
-auth:
-  root:
-    user: ${ADMIN_LOGIN:root-user}
-    password: ${ADMIN_PASSWORD:root-password}
-  service:
-    user: ${USER_LOGIN:default-user}
-    password: ${USER_PASSWORD:default-password}
+#spring:
+#  datasource:
+#    username: ${USER:user}
+#    password: ${PASSWORD:password}
+#    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/test-db}
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#    show-sql: true
+#
+#auth:
+#  root:
+#    user: ${ADMIN_LOGIN:root-user}
+#    password: ${ADMIN_PASSWORD:root-password}
+#  service:
+#    user: ${USER_LOGIN:default-user}
+#    password: ${USER_PASSWORD:default-password}

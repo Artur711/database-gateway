@@ -50,6 +50,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>database-gateway</finalName>
 	</build>
-
 </project>
